@@ -32,4 +32,22 @@ git commit -m "Describe your changes"
 git push -u origin main
 ````
 
+## Dataset Overview
+
+The dataset contains information about movies and TV shows, including their titles, years of release, certificates, durations, genres, ratings, descriptions, stars, and votes.
+
+- **Total Records**: 9957
+- **Features**:
+  - **Title**: Name of the movie or TV show
+  - **Year**: Year of release
+  - **Certificate**: Age rating
+  - **Duration**: Running time
+  - **Genre**: Genre(s) of the movie
+  - **Rating**: IMDb rating
+  - **Description**: Summary of the movie
+  - **Stars**: Main actors and actresses
+  - **Votes**: Number of user votes
+
+**Link to Dataset**: [IMDb Dataset on Kaggle](https://www.kaggle.com/code/payamamanat/imdb-movies#Dataset-Description)
+*** data set- (/Users/mk/Downloads/IMBD.csv)
 
