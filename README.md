@@ -4,6 +4,16 @@
 
 - This project involves setting up an environment for exploratory data analysis (EDA) using Python. The project includes creating a virtual environment, installing necessary external packages, and managing dependencies via a requirements.txt file. This repository is part of the data analysis workflow and focuses on working with data using Jupyter notebooks and Python packages such as numpy, pandas, matplotlib, seaborn, and more.
 
+## Repository Structure
+- `datafun-06-eda/` - Root folder for the project.
+  - `moses_eda.ipynb` - Jupyter Notebook containing the EDA.
+  - `README.md` - Documentation for the project.
+  - `.gitignore` - Specifies files and folders to be ignored by Git.
+    - `requirements.txt` - File listing dependencies required for the project.
+    - `venv/` - Virtual environment folder.
+
+
+
 ## Setup Instructions
 
 1. Clone the Repository
@@ -32,22 +42,17 @@ git commit -m "Describe your changes"
 git push -u origin main
 ````
 
-## Dataset Overview
-
-The dataset contains information about movies and TV shows, including their titles, years of release, certificates, durations, genres, ratings, descriptions, stars, and votes.
-
-- **Total Records**: 9957
-- **Features**:
-  - **Title**: Name of the movie or TV show
-  - **Year**: Year of release
-  - **Certificate**: Age rating
-  - **Duration**: Running time
-  - **Genre**: Genre(s) of the movie
-  - **Rating**: IMDb rating
-  - **Description**: Summary of the movie
-  - **Stars**: Main actors and actresses
-  - **Votes**: Number of user votes
+### Dataset Features
+- **title**: Title of the movie.
+- **year**: Year of release.
+- **certificate**: Age rating.
+- **duration**: Duration of the movie in minutes.
+- **genre**: Genre of the movie.
+- **rating**: IMDb rating.
+- **description**: Brief description of the movie.
+- **stars**: Main actors.
+- **votes**: Number of votes received.
 
 **Link to Dataset**: [IMDb Dataset on Kaggle](https://www.kaggle.com/code/payamamanat/imdb-movies#Dataset-Description)
-*** data set- (/Users/mk/Downloads/IMBD.csv)
+*** data set- (data/IMBD.csv)
 
