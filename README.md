@@ -56,3 +56,12 @@ git push -u origin main
 **Link to Dataset**: [IMDb Dataset on Kaggle](https://www.kaggle.com/code/payamamanat/imdb-movies#Dataset-Description)
 *** data set- (data/IMBD.csv)
 
+## Insights
+
+- Genre Ratings: Documentary and Biography movies generally receive higher IMDb ratings.
+- Top Movies by Votes: Blockbuster movies have garnered the most votes, indicating high audience engagement.
+- Duration and Rating: No significant correlation between movie length and rating, suggesting other factors influence success.
+- Ratings Over Time: Ratings fluctuate over the years, with some periods showing higher average quality as perceived by audiences.
+
+## Conclusion
+This project demonstrates the ability to perform a comprehensive exploratory data analysis using real-world data. The insights derived from this analysis can help understand movie trends and audience preferences.
